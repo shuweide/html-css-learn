@@ -1,12 +1,36 @@
+/*選擇器{
+  屬性:設定值;
+}*/
+
 h1 {
   color: blue;
   font-size: 50px;
 }
 
 p{
+  font-family: verdana;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  text-indent: 36px;
+  text
+}
+
+.style1{
+  color: green;
+}
+
+.style2{
   color: red;
 }
 
-/*選擇器{
-  屬性:設定值;
-}*/
+/*
+擬態選擇器
+*/
+a:hover{
+  color: gray;
+}
+
+a:active{
+  color: red;
+}
