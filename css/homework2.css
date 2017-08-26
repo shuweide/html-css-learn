@@ -1,0 +1,35 @@
+
+
+h1 {
+  color: blue;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+h2 {
+  border-left: 5px solid red;
+  border-bottom: 5px solid red;
+}
+
+li {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+li.underline {
+  text-decoration: line-through;
+}
+
+img{
+  border: 5px solid gray;
+}
+
+img:hover{
+  border-color: pink;
+}
