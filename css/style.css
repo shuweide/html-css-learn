@@ -40,3 +40,20 @@ a:hover{
 a:active{
   color: red;
 }
+
+.box{
+  border: 10px solid #000;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.box p{
+  background-color: rgb(88, 186, 241);
+  margin-bottom: 50px;
+}
+
+.wrap{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}

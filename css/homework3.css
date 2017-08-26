@@ -1,0 +1,45 @@
+.wrap{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header{
+  border: 1px solid #000;
+}
+
+.header img{
+  margin: 20px;
+}
+
+.content{
+  border: 2px solid red;
+  padding: 20px 20px 100px 20px;
+}
+
+.content * {
+  margin-bottom: 30px;
+  color: blue;
+}
+
+.content a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: blue;
+  color: white;
+}
+
+.content a:hover{
+  background-color: rgba(75, 71, 68, 0.77);
+}
+
+.footer{
+  padding: 20px;
+  text-align: center;
+  background-color: pink;
+}
+
+div{
+    font-family: monospace;
+}
