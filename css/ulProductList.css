@@ -1,0 +1,52 @@
+.productList {
+  width: 800px;
+}
+
+.productList li img {
+  width: 100%;
+  height: 80%;
+}
+
+.productList li {
+  position: relative;
+  float: left;
+  width: 178px;
+  height: 350px;
+  border: 1px solid #000;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+
+.productList li h2 {
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.productList li span {
+  font-size: 20px;
+  color: red;
+}
+
+.productList .hot {
+  background: red;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+}
+
+.messageBox{
+  width: 150px;
+  height: 150px;
+  background: #000;
+  color: #fff;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+}
