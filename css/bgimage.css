@@ -1,0 +1,32 @@
+.wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  float: left;
+}
+
+.header h1 {
+  display: block;
+  width: 173px;
+  height: 44px;
+  background-image: url(../images/logo.png);
+  /* 保留文字用圖片代替 */
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.logo {
+  clear: left;
+  width: 300px;
+  height: 600px;
+  /*background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: blue;*/
+  /*縮寫*/
+  background: url(../images/logo.png) no-repeat right bottom blue;
+  color: #fff;
+}
