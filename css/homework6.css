@@ -1,0 +1,82 @@
+.wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.bar {
+  height: 30px;
+  background-color: #f6f6f6;
+}
+
+.bar ul {
+  float: right;
+}
+
+.bar ul li {
+  float: left;
+  margin: 5px;
+}
+
+.bar li a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.bar li img {
+  float: left;
+  margin-right: 5px;
+}
+
+.bar li span {
+  float: left;
+}
+
+.facebook {
+  color: #4460a0;
+  border-right: 2px solid #cccccc;
+  padding-right: 8px;
+}
+
+.header{
+  height: 50px;
+}
+
+.header h1 {
+  float: left;
+  margin-top: 10px;
+}
+
+.header h1 a {
+  display: block;
+  width: 170px;
+  height: 36px;
+  background-image: url(../images/logo.png);
+  /* 保留文字用圖片代替 */
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.header ul {
+  float: right;
+  margin-right: 5px;
+}
+
+.header ul li {
+  float: left;
+}
+
+.header ul li a {
+  display: block;
+  line-height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #00cc99;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header ul li a:hover {
+  border-bottom: 2px solid #00cc99;
+}
