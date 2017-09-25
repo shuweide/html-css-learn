@@ -1,0 +1,29 @@
+.wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.price th, td {
+  border-top: 1px solid rgb(97, 97, 97);
+  border-bottom: 1px solid grey;
+  font-family: monospace;
+  font-size: 16px;
+  padding: 10px 70px 10px 10px;
+}
+
+.price th{
+  font-weight: bold;
+  text-align: left;
+  background-color: rgb(213, 213, 213);
+}
+
+.green {
+  color : green;
+}

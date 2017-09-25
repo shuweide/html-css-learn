@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/pure/forms.css">
+  <link rel="stylesheet" href="css/pure/buttons.css">
+  <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+  <form action="form.html" class="pure-form">
+    <label for="mail">Mail：</label>
+    <input id="mail" type="text" placeholder="enter mail" name="mail">
+    <label for="name">Name：</label>
+    <input id="name" type="text" placeholder="enter name" name="name">
+    <h2>性別：</h2>
+    <input type="radio" name="sex" value="male">Male
+    <input type="radio" name="sex" value="female">Female
+    <h2>興趣：</h2>
+    <input type="checkbox" name="hobby" value="movie">Movie
+    <input type="checkbox" name="hobby" value="music">Music
+    <input type="checkbox" name="hobby" value="comic">Comic
+    <br>
+    <label for="birth">生日：</label>
+    <select name="birth" id="birth">
+      <option value="1900">1900</option>
+      <option value="1901">1901</option>
+    </select>
+    <h2>內容：</h2>
+    <textarea name="content" cols="30" rows="10" placeholder="enter content"></textarea>
+    <br>
+    <input type="submit" value="Next" class="pure-button pure-button-primary">
+  </form>
+</body>
+
+</html>
