@@ -1,14 +1,26 @@
-.box{
+.box {
   width: 300px;
-  height: 300px;
-  background-color: #000;
+  height: 300px !important;
+  height: 0px;
   padding-right: 50px;
   border: 10px solid gray;
   margin-bottom: 30px;
+  /* CSS3 */
+  border-radius: 0 0 50px 0;
+  background: -webkit-linear-gradient(red, yellow);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, yellow);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, yellow);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(red, yellow);
+  box-shadow: 10px 10px 10px rgb(210, 118, 21);
 }
 
-.cssboxsize{
+.cssboxsize {
   box-sizing: border-box;
-  -moz-box-sizing: border-box; /* old firefox browser */
-  -webkit-box-sizing: border-box; /* old chrome browser*/
+  /* old firefox browser */
+  -moz-box-sizing: border-box;
+  /* old chrome browser*/
+  -webkit-box-sizing: border-box;
 }
